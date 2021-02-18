@@ -20,11 +20,7 @@ number3 = int(input("Введите третье число: "))
 result = 0
 if number1 == number2 == number3:
     result += 3
-elif number1 == number2:
-    result += 2
-elif number1 == number3:
-    result += 2
-elif number2 == number3:
+elif number1 == number2 or number1 == number3 or number2 == number3:
     result += 2
 else:
     result += 0
